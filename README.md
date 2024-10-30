@@ -1,6 +1,6 @@
 # Client Management API (Backend)
 
-Bienvenido al repositorio del backend de la API de gestión de clientes. Esta API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los datos de clientes, utilizando ASP.NET Core y Entity Framework.
+Este repositorio contiene la implementacion del backend de la API del ejercicio de la prueba técnica para gestionar clientes y servicios. Esta API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los datos de clientes y servicios, utilizando ASP.NET Core y Entity Framework.
 
 ## Tabla de Contenidos
 
@@ -12,17 +12,15 @@ Bienvenido al repositorio del backend de la API de gestión de clientes. Esta AP
 
 ## Características
 
-- **CRUD de Clientes**: Permite agregar, listar, editar y eliminar clientes.
-- **Autenticación y Autorización**: Soporte para usuarios y roles.
-- **Manejo de Errores**: Respuestas claras en caso de errores.
-- **Documentación API**: Generación automática de documentación con Swagger.
+- **CRUD de clientes/servicios**: contiene un controlador que permite agregar, listar, editar y eliminar clientes/servicios.
+- **Documentación API**: permite generar documentación con Swagger de manera automática.
 
 ## Tecnologías
 
-- **ASP.NET Core**: Framework para construir aplicaciones web y APIs.
-- **Entity Framework Core**: ORM para trabajar con bases de datos.
-- **SQL Server**: Base de datos utilizada para almacenar la información de los clientes.
-- **Swagger**: Herramienta para documentar y probar APIs.
+- ASP.NET Core
+- Entity Framework Core
+- SQL Server
+- Swagger
 
 ## Requisitos
 
